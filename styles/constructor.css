@@ -43,6 +43,11 @@
     flex-direction: column;
 }
 
+.coMD-f {
+    display: flex;
+    flex-direction: column;
+}
+
 /* row */
 .ro-f {
     display: flex;

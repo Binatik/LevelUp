@@ -46,10 +46,6 @@
     color: #fff;
 }
 
-.promoDJ__button:hover {
-    background-color: #000;
-}
-
 .video {
     width: 100%;
     position: relative;
@@ -146,12 +142,7 @@
 }
 
 .structure__button {
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #fff;
-}
-
-.structure__button:hover {
-    box-shadow:1px 1px 60px 0 rgba(0,0,0,0.24);
+   width: 100%;
 }
 
 .structure__text_inverse {
@@ -287,6 +278,10 @@
     .structure__text_inverse {
         margin-left: 0;
         margin-right: 30px;
+    }
+
+    .structure__button {
+        width: 65%;
     }
 
     .structure__line {
