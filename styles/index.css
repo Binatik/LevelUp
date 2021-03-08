@@ -229,6 +229,44 @@
     color: #000;
 }
 
+.promo {
+    border-top: 1px solid #f4f4f4;
+}
+
+.promo__body {
+    margin-top: 40px;
+}
+
+.promo__img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.promo__group {
+    padding: 15px;
+    background-color: #f4f4f4;
+    margin-top: 40px;
+}
+
+.desk__text {
+    margin-bottom: 15px;
+}
+
+.promo__list  {
+    height: 100%;
+    margin: 20px 0;
+}
+
+.promo__item {
+    vertical-align: bottom;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.promo__text {
+    color: #ff7800;
+}
+
 
 /* @media  запросы. От 768px и выше. (Планшет) */
 @media (min-width: 768px) {
@@ -286,5 +324,14 @@
 
     .structure__line {
         display: inline-block;
+    }
+
+    .promo__img {
+        width: 50%;
+    }
+
+    .promo__group {
+        margin-top: 0;
+        margin-left: 30px;
     }
 }
