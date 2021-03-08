@@ -7,7 +7,7 @@
 
 .between-items-f {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .left-items-f {
@@ -62,6 +62,10 @@
 
 /* @media  запросы. От 768px и выше. (Планшет) */
 @media (min-width: 768px) {
+    .between-items-f {
+        justify-content: space-between;
+    }
+
     /* column */
     .co-f {
         flex-direction: row;
